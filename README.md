@@ -17,28 +17,28 @@
 
 ## Materialization Types
 
-### 1. View
+### View
 - **Use Case:**
   - Lightweight representation.
   - Infrequent data reuse.
 - **Avoid When:**
   - Frequent reads from the same model.
 
-### 2. Table
+### Table
 - **Use Case:**
   - Repeated reads from the model.
 - **Avoid When:**
   - Building models for one-time use.
   - Populating models incrementally.
 
-### 3. Incremental (Table Appends)
+### Incremental (Table Appends)
 - **Use Case:**
   - Fact tables.
   - Appending data to tables.
 - **Avoid When:**
   - Need to update historical records.
 
-### 4. Ephemeral (CTEs)
+### Ephemeral (CTEs)
 - **Use Case:**
   - Creating an alias for your data.
 - **Avoid When:**
