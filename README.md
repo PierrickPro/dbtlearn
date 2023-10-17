@@ -10,7 +10,6 @@
 
 ### Type 2 - Add New Row:
 - **Description:** Keep full history by adding additional (historic data) rows for each dimension change.
-- **Note:** DBT can handle this using `dbt_valid_from` and `dbt_valid_to` columns.
 
 ### Type 3 - Add New Attribute:
 - **Description:** Keep limited data history by adding separate columns for original and current values.
