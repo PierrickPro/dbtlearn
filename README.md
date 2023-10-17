@@ -1,4 +1,4 @@
-# The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero (Udemy)
+# dbt (Data Build Tool) Bootcamp: Zero to Hero (Udemy)
 
 ## Slowly Changing Dimensions (SCD)
 
