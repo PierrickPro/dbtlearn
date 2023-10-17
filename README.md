@@ -53,3 +53,8 @@
 
 ### Checking Source Freshness:
 - You can check the freshness of your sources using the `dbt source freshness` command. To set up freshness checks, define `warn_after` and `error_after` settings in the `sources.yml` file.
+ 
+ ## Snapshots
+ - Snapshots allow you to capture the current state of your data and store it in a way that is queryable and version-controlled (SCD type 2)
+ - use `dbt snapshot` to create and update snapshots
+ - DBT_VALID_TO is NULL when the data is still valid, and will be set to a date whenever the data is modified
