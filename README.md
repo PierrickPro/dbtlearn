@@ -2,16 +2,16 @@
 
 ## Slowly Changing Dimensions (SCD)
 
-### Type 0 - Retain Original:
+#### Type 0 - Retain Original:
 - **Description:** Do not update the Data Warehouse (DWH) table when a dimension changes.
 
-### Type 1 - Overwrite:
+#### Type 1 - Overwrite:
 - **Description:** Update the DWH table when a dimension changes, overwriting the original data.
 
-### Type 2 - Add New Row:
+#### Type 2 - Add New Row:
 - **Description:** Keep full history by adding additional (historic data) rows for each dimension change.
 
-### Type 3 - Add New Attribute:
+#### Type 3 - Add New Attribute:
 - **Description:** Keep limited data history by adding separate columns for original and current values.
 
 ## Materialization Types
@@ -75,4 +75,15 @@ There are 4 built-in generic tests:
 
 Generic tests are defined in the `models/schema.yml` file.
 
-You can also define your own generic tests or import tests from dbt packages
+You can also define your own generic tests or import tests from dbt packages. 
+
+Note: `model` and `column_name` are passed as default arguments to macros called from `models/schema.yml`.
+
+## Macros
+
+- Macros are jinja templates created in the macro folder
+- There are many built-in macros in DBT
+- You can use macros in model definitions and tests
+- A special macro called test, can be used for implementing your own generic tests
+- dbt packages can be installed easily to get access to a plethora of macros and tests
+
