@@ -62,7 +62,7 @@
 ## Tests
 
 ### Singular/Bespoke Tests
-- SQL queries stored in tests which are expected to return an empty resultset
+- SQL queries stored in the tests folder which are expected to return an empty resultset
 
 ### Generic Tests
 
@@ -72,5 +72,7 @@ There are 4 built-in generic tests:
 - not_null
 - accepted_values
 - Relationships
+
+Generic tests are defined in the `models/schema.yml` file.
 
 You can also define your own generic tests or import tests from dbt packages
