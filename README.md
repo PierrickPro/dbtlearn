@@ -97,3 +97,23 @@ Note: `model` and `column_name` are passed as default arguments to macros called
 - You can add you own assets (like images) to a special project folder
 
 - use `dbt docs generate` to generate the doc and `dbt docs serve` to serve the doc dbt server
+
+## Analysis
+
+- Analyses are useful for writing ad-hoc analytical queries in dbt 
+- Can be compiled into runnable SQL in the target folder by running `dbt compile`
+
+## Hooks
+
+- Hooks are SQLs that are executed at predefined times
+- Hooks can be configured on the project, subfolder, or model level
+- Hook types:
+    - on_run_start: executed at the start of dbt {run, seed, snapshot}
+    - on_run_end: executed at the start of dbt {run, seed, snapshot}
+    - pre-hook: executed before a model/seed/snapshot is built
+    - post-hook: executed after a model/seed/snapshot is built
+
+## Exposures
+
+- Exposures in dbt are a way to define and describe a downstream use of your dbt project, such as in a dashboard
+- Exposure are created using yml files, such as `dashboard.yml`
