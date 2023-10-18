@@ -3,16 +3,16 @@
 ## Slowly Changing Dimensions (SCD)
 
 #### Type 0 - Retain Original:
-- **Description:** Do not update the Data Warehouse (DWH) table when a dimension changes.
+- Do not update the Data Warehouse (DWH) table when a dimension changes.
 
 #### Type 1 - Overwrite:
-- **Description:** Update the DWH table when a dimension changes, overwriting the original data.
+- Update the DWH table when a dimension changes, overwriting the original data.
 
 #### Type 2 - Add New Row:
-- **Description:** Keep full history by adding additional (historic data) rows for each dimension change.
+- Keep full history by adding additional (historic data) rows for each dimension change.
 
 #### Type 3 - Add New Attribute:
-- **Description:** Keep limited data history by adding separate columns for original and current values.
+- Keep limited data history by adding separate columns for original and current values.
 
 ## Materialization Types
 
