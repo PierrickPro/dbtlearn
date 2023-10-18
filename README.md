@@ -87,3 +87,13 @@ Note: `model` and `column_name` are passed as default arguments to macros called
 - A special macro called test, can be used for implementing your own generic tests
 - dbt packages can be installed easily to get access to a plethora of macros and tests
 
+## Documentation
+
+- Documentations can be defined in two ways:
+    - In yaml files (like schema.yml)
+    - IN standalone markdown files
+- Dbt ships with a lightweight documentation web server
+- For customizing the landing page, a special file, `overview.md` is used
+- You can add you own assets (like images) to a special project folder
+
+- use `dbt docs generate` to generate the doc and `dbt docs serve` to serve the doc dbt server
