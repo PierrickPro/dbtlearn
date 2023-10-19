@@ -1,5 +1,11 @@
 # dbt (Data Build Tool) Bootcamp: Zero to Hero (Udemy)
 
+This is what I built while following the Udemy course [Complete DBT (Data Build Tool) Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/).
+
+[Click here to view the certificate on Udemy](https://www.udemy.com/certificate/UC-c5259d06-33fb-4df2-9770-1fc8ab7e0d29/)
+
+Below are some notes I took while following the course.
+
 ## Slowly Changing Dimensions (SCD)
 
 #### Type 0 - Retain Original:
