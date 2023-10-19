@@ -117,3 +117,4 @@ Note: `model` and `column_name` are passed as default arguments to macros called
 
 - Exposures in dbt are a way to define and describe a downstream use of your dbt project, such as in a dashboard
 - Exposure are created using yml files, such as `dashboard.yml`
+- Exposures are included in the documentation
