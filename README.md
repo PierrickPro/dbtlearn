@@ -22,7 +22,7 @@ Below are some notes I took while following the course.
 
 ## Materialization Types
 
-In dbt (Data Build Tool), materialization types determine how the results of your SQL models are stored in your data warehouse. Choosing the right materialization type is essential for optimizing query performance and managing data effectively. Here's an overview of common materialization types in dbt:
+In dbt, materialization types determine how the results of your SQL models are stored in your data warehouse. Choosing the right materialization type is essential for optimizing query performance and managing data effectively. Here's an overview of common materialization types in dbt:
 
 ## 1. View
 
@@ -79,7 +79,7 @@ Note: `model` and `column_name` are passed as default arguments to macros called
 ## Macros
 
 - Macros are jinja templates created in the macro folder
-- There are many built-in macros in DBT
+- There are many built-in macros in dbt
 - You can use macros in model definitions and tests
 - A special macro called test, can be used for implementing your own generic tests
 - dbt packages can be installed easily to get access to a plethora of macros and tests
