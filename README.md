@@ -26,7 +26,7 @@ In dbt, materialization types determine how the results of your SQL models are s
 
 ## 1. View
 
-- **Description:** Materialized as a database view. Views are virtual tables that provide a dynamic representation of your data without physically storing it. Suitable for lightweight representations and often used for exploratory queries.
+- Materialized as a database view. Views are virtual tables that provide a dynamic representation of your data without physically storing it. Suitable for lightweight representations and often used for exploratory queries.
 
 ## 2. Table
 
