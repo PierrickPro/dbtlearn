@@ -30,15 +30,15 @@ In dbt, materialization types determine how the results of your SQL models are s
 
 ## 2. Table
 
-- **Description:** Materialized as a physical table in your data warehouse. This option is ideal for performance-critical models or when you want to create permanent, query-optimized tables.
+- Materialized as a physical table in your data warehouse. This option is ideal for performance-critical models or when you want to create permanent, query-optimized tables.
 
 ## 3. Incremental
 
-- **Description:** Similar to tables but designed for incremental data loading. Allows you to append new data to an existing table, making it suitable for fact tables or when you need to update historical records incrementally.
+- Similar to tables but designed for incremental data loading. Allows you to append new data to an existing table, making it suitable for fact tables or when you need to update historical records incrementally.
 
 ## 4. Ephemeral (CTEs)
 
-- **Description:** Ephemeral materializations are created as Common Table Expressions (CTEs). These are temporary result sets that are only accessible within the context of a single dbt run. They are used to create aliases or intermediate results for complex queries.
+- Ephemeral materializations are created as Common Table Expressions (CTEs). These are temporary result sets that are only accessible within the context of a single dbt run. They are used to create aliases or intermediate results for complex queries.
 
 ## Seeds and Sources
 
